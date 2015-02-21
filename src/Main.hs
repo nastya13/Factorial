@@ -9,7 +9,7 @@ fac a =
     then - 1
     else 
     let
-      stop a = a < 1
+      stop a = a == 1
 
       go res a = if stop a
 	  	  then res
